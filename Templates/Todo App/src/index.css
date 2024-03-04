@@ -1,0 +1,120 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Handjet:wght@200&family=Noto+Sans+Soyombo&family=Noto+Serif+Devanagari&family=Poppins:wght@300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Moonrocks&family=Teko:wght@500&family=Tiro+Devanagari+Hindi&family=Ultra&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #EFEDFB;
+    font-family: 'Roboto', sans-serif;
+    color:#344D70;
+
+}
+#mainBlock >article
+{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #eee;
+    width:90%;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#mainBlock >article h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#mainBlock >article main{
+    display: flex;
+    gap:10px;
+}
+#mainBlock >article main >div{
+    background-color: #dbbcff;
+    flex:1;
+    padding: 10px;
+}
+#mainBlock form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 30px;
+}
+
+#mainBlock form label{
+    width:100%;
+    display: block;
+    padding: 10px 0;
+    font-weight: 500;
+    color:#344D70;
+    text-transform: capitalize;
+}
+#mainBlock form input{
+    width:100%;
+    padding:10px;
+    border-radius: 4px;
+    color:#344D70;
+    border: 1px solid #ccc;
+}
+#mainBlock form button{
+    background: #344D70;
+    border:1px solid #344D70;
+    color:#fff;
+    border-radius: 4px;
+    width:auto;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:10px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+#mainBlock .todo h2{
+font-size: 20px;
+text-transform: capitalize;
+font-weight: 300;
+padding: 10px;
+border-bottom: 1px solid #949ca8;
+margin: 10px 0;
+background: #fff;
+box-shadow: 0px 0px 2px 0px #ccc;
+}
+.todo table{
+    width:100%;
+    border :1px solid #bebebe;
+    
+}
+.todo table thead{
+    background-color: #344D70;
+    color:#fff;
+    
+    padding: 10px;
+}
+
+.todo  tr,td,th
+
+{
+    border: 1px solid #607D8B ;
+    border-collapse: collapse;
+    width:fit-content;
+    padding: 10px;
+}
+.delete,.update{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:5px;
+    cursor: pointer;
+}
+.delete
+{
+    background: rgba(233, 10, 10, 0.568);
+    color:white;
+}
+.update{
+    background: rgba(7, 173, 7, 0.671);
+}

@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "title": "Java",
+      "trainer": "Dixith",
+      "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
+      "updatedAt": "2024-01-23",
+      "id": "02f3"
+    },
+    {
+      "id": "33af",
+      "title": "React",
+      "trainer": "Shashikunal",
+      "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.",
+      "createdAt": "2024-01-24"
+    },
+    {
+      "id": "a719",
+      "title": "DotNet",
+      "trainer": "Girish",
+      "description": "The .NET platform is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems. The project is mainly developed by Microsoft employees by way of the .NET Foundation and is released under an MIT License",
+      "createdAt": "2024-01-26"
+    }
+  ]
+}

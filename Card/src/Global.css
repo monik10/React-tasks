@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f2f2;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0;
+    position:relative;
+}
+.content-1
+{
+width:20%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+padding-top: 10px;
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+transition: .4s;
+background: #f2f2f2;}
+
+.content-1:hover{
+    box-shadow:3px 3px 6px rgba(240, 7, 7, 0.747),0 3px 6px rgba(240, 7, 7, 0.747); 
+    transform: translate(0px,-8px);
+}
+.content-1:hover .buy-1{
+    background: rgba(212, 5, 5, 0.80);
+  }
+  
+.content-2
+{
+width:20%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+padding-top: 10px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+transition: .4s;
+background: #f2f2f2;}
+
+.content-2:hover{
+    box-shadow:3px 3px 6px rgba(26, 240, 7, 0.747),0 3px 6px rgba(100, 240, 7, 0.747); 
+    transform: translate(0px,-8px);
+}
+.content-2:hover .buy-2{
+    background: rgba(7, 139, 7, 0.8);
+  }
+.content-3
+{
+width:20%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+padding-top: 10px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+transition: .4s;
+background: #f2f2f2;}
+
+.content-3:hover{
+    box-shadow:3px 3px 6px rgba(7, 147, 240, 0.747),0 3px 6px rgba(7, 147, 240, 0.747);
+    transform: translate(0px,-8px);
+}
+.content-3:hover .buy-3
+
+{
+    background: rgba(68, 0, 255, 0.80);
+}
+img{
+    width:200px;
+    height:200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding:15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgba(0, 0, 0, 0.822);
+}
+.nav{
+  margin-left:-1200px;
+  margin-top: -300px;
+  position: absolute;
+}
+  .btn{
+    margin:8px;
+    border:2px solid grey;
+    border-radius:5px;
+    width:60px;
+  }
+
+
+
+
+
+
+
+
+

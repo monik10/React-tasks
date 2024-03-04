@@ -1,0 +1,32 @@
+[
+    {
+      "heading": "Basic Plan",
+      "subHeading": "This is Basic Plan",
+      "price": "79",
+      "brand": "Branding",
+      "hours": "20 hours of consultation",
+      "theory": "15 hours if theory",
+      "call": "Skype video call",
+      "support": "Support 24/7"
+    },
+    {
+      "heading": "Standart Plan",
+      "subHeading": "This is Standart Plan",
+      "price": "129",
+      "brand": "Branding",
+      "hours": "20 hours of consultation",
+      "theory": "15 hours if theory",
+      "call": "Skype video call",
+      "support": "Support 24/7"
+    },
+    {
+      "heading": "Premium Plan",
+      "subHeading": "This is Premium Plan",
+      "price": "259",
+      "brand": "Branding",
+      "hours": "20 hours of consultation",
+      "theory": "15 hours if theory",
+      "call": "Skype video call",
+      "support": "Support 24/7"
+    }
+  ]

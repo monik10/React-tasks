@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #679186;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container{
+    width:60%;
+    height:90vh;
+    margin:20px auto;
+    padding: 20px;
+    background-color:#679186;
+    display:flex;
+    gap:20px;
+    
+}
+.flex-container > section {
+    flex:1;
+    background: #679186;
+    padding:10px;
+}
+#form
+{
+    flex:1;
+    background: #ffffff;
+    padding:10px; 
+    height:100%;
+}
+
+.flex-container > section h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #e2c195;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffeb3b2e;
+}
+ #form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    gap:2px;
+}
+#form form label{
+    width:100%;
+    display: block;
+    padding: 10px 0;
+    color:#181313;
+    font-weight: 500;
+}
+#form form input{
+    width:90%;
+    display: block;
+    padding: 7px;
+    color:#fff;
+    font-weight: 500;
+    background-color: transparent;
+    border:1px solid #666;
+    border-radius: 5px;
+    
+}
+#form form select{
+    width:90%;
+    display: block;
+    padding: 7px;
+    color:#5a5353;
+    font-weight: 500;
+    background-color: transparent;
+    border:1px solid #666;
+    border-radius: 5px;
+    
+}
+#form form option{
+    
+    color:#070606;
+   
+    
+    
+}
+form button {
+    background-color:#e2c195;
+    color:#111;
+    padding: 10px 20px;
+    display:inline-block;
+    border-radius: 5px;
+    border:1px solid  #f7bb6c;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: transparent;
+    border: 1px solid yellow;
+    color:yellow;
+}
+.container{
+
+    padding:10px ;
+    background: transparent;
+    border-bottom: 1px solid #444;
+}
+.container h3{
+
+    padding: 10px 0;
+    color:#fff;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.container p{
+    font-weight: 100;
+    font-size: 14px;
+    color:#d4cbcb;
+}
+.container:last-child{
+    border: none;
+}
